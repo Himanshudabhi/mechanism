@@ -1,0 +1,202 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+*{
+  margin:0;
+  padding: 0;
+}
+.mainsection{
+  width: 100%;
+  height: 250px;
+ background-color: #f34d61; 
+}
+.logo-img{
+  width: 328px;
+  height: 40px;
+  position: relative;
+  top:60px;
+  left:66px;
+}
+
+.login-card{
+  width: 1164px;
+  height: 722px;
+  background-color:#ffffff;
+  margin: 110px auto;
+  padding: 70px;
+}
+.login{
+  width:400px;
+  height: 311px;
+  margin: auto;
+
+}
+
+.login h3{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: auto 0 50px 0;
+  display: flex;
+justify-content: center;
+}
+
+.inputFieldclass{
+  margin-top: 20px;
+}
+
+.text-field{
+  width: 360px;
+  margin: auto;
+}
+.login-btn{
+  width:360px;
+  margin: auto;
+  position: relative;
+  left: 21px;
+  background-color: #f34d61;
+  color: #ffffff;
+}
+
+.header{
+  background-color: #f34d61;
+  width:100%;
+  height: 40px;
+}
+
+.navbar-logo{
+  margin: auto;
+  width: 328px;
+  height: 40px;
+}
+.search-field{
+  display: flex;
+  justify-self: end;
+}
+.pokemon-searchField{
+  width: 360px;
+}
+
+.card-section{
+  background-color: #74CB48;
+  width: 328px;
+  height: 344px;
+  border-radius: 8px;
+}
+.card-secon-section{
+  background-color: #ffffff;
+  width: 320px;
+  height: 161px;
+  border-radius: 8px;
+  margin: auto;
+  position: relative;
+  top: -165px;
+  left: 4px;
+
+}
+.card-section h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 20px 20px 0 0;
+  display: flex;
+  justify-content: end;
+
+}
+.card-img {
+  display: flex;
+  z-index: 1;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.card-secon-section h3{
+  text-align: center;
+    padding-top: 69px;
+  color: #74CB48;
+
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+.card-btn-1 {
+  height: 16px;
+  /* background-color: #74CB48; */
+  font-size: 10px;
+  padding: 0px 6px 0px 6px;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+.LoadMOre-btn{
+  display: flex;
+  justify-content: center;
+}
