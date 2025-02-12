@@ -102,14 +102,7 @@ const Pokemons = () => {
                 </div>
               );
             })}
-            <div className="LoadMOre-btn">
-             <button
-                            type="button"
-                            class="btn btn-primary "
-                          >
-                            load More
-                          </button>
-                          </div>
+           
           </div>
         </div>
       </div>

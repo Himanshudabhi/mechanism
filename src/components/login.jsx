@@ -23,6 +23,7 @@ const Login = () => {
             setPassword("")
         }catch{
             console.log(error)
+            alert("Invalid credentials. Please try again.");
             setemail("")
             setPassword("")
         }
